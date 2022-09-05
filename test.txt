@@ -1,0 +1,5 @@
+﻿transmission-remote -a C:/Users/RT-Admin/Desktop/torrentin/5896.torrent -w C:/Users/RT-Admin/Desktop/torrentout
+transmission-remote -l
+transmission-remote -t all --remove-and-delete
+transmission-remote -t all -i
+transmission-daemon -w C:/Users/RT-Admin/Desktop/torrentout
